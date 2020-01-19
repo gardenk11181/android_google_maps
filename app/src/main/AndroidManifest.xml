@@ -32,12 +32,21 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps">
+        </activity>
+
+        <activity
+            android:name=".MapsNaverActivity"
+            android:label="@string/title_activity_maps">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="r31cp8h758" />
     </application>
 
 </manifest>
